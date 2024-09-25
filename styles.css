@@ -1,0 +1,41 @@
+body {
+    font-family: 'Kanit', sans-serif; /* Match home page font */
+    text-align: center;
+    margin: 50px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #AA336A; /* Lighter purple for login button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #9966FF; /* Darker purple on hover */
+  }
