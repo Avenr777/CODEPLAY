@@ -2,10 +2,12 @@ body {
     font-family: 'Kanit', sans-serif; /* Match home page font */
     text-align: center;
     margin: 50px;
+    background-color: #000;
+    color: #fff;
   }
   
   h1, h2 {
-    color: #333;
+    color: #fff;
   }
   
   form {
@@ -39,3 +41,4 @@ body {
   button:hover {
     background-color: #9966FF; /* Darker purple on hover */
   }
+  
